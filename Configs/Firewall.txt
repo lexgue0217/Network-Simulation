@@ -1,1 +1,13 @@
+en
+conf terminal
+int gig 0/0
+ip add 192.168.1.0
+name if outside securty level 0
+wr mem
+ex
+int gig 0/1
+ip add 192.168.2.0
+nameif Inside security level 100
+wr mem
+ex
 
